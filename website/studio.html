@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studio — Niat Baik Studio</title>
+  <meta name="description" content="Niat Baik Studio — Business, AI, and Technology content in Bahasa Indonesia by Ali Hasyimi." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>A</text></svg>" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">Ali Hasyimi</a>
+      <ul class="nav__links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="studio.html" class="active">Studio</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="nav__hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="nav__overlay" id="navOverlay">
+    <button class="nav__overlay-close" id="navClose">&#215;</button>
+    <a href="about.html">About</a>
+    <a href="studio.html">Studio</a>
+    <a href="resources.html">Resources</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <!-- PAGE HERO -->
+  <div style="padding-top:64px">
+    <div class="page-hero container">
+      <span class="label">Content Studio</span>
+      <h1>Niat Baik<br>Studio.</h1>
+      <p>Business &middot; AI &middot; Technology — in Bahasa Indonesia. For the curious. For the builders. For everyday people.</p>
+      <div style="margin-top:32px">
+        <a href="https://www.youtube.com/@niatbaikstudio" target="_blank" rel="noopener" class="btn btn-primary">
+          Subscribe on YouTube &nbsp;&#8594;
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- LATEST RELEASE -->
+  <section class="section" style="padding-top:64px">
+    <div class="container">
+      <div style="border-bottom:1px solid var(--color-border); padding-bottom: 56px; margin-bottom:56px">
+        <span class="label" style="margin-bottom:20px">Latest Release</span>
+        <div class="studio__grid" style="grid-template-columns: 1.6fr 1fr">
+          <div class="studio-card studio-card--featured fade-up" style="grid-column:auto">
+            <div class="studio-card__thumb" style="aspect-ratio:16/9">
+              <img src="images/outdoor-hike.png" alt="The Architecture of Silence">
+            </div>
+            <div class="studio-card__body">
+              <span class="studio-card__tag">AI &middot; Featured</span>
+              <h3 class="studio-card__title" style="font-size:22px">The Architecture of Silence: How Minimalism Shapes Digital Output</h3>
+              <p class="studio-card__desc">Exploring minimalist philosophy and how it shapes contemporary creative output in the digital age — and what Indonesian builders can take from it.</p>
+              <a href="https://www.youtube.com/@niatbaikstudio" target="_blank" rel="noopener" class="studio-card__link">Watch on YouTube <span class="studio-card__arrow">&#8594;</span></a>
+            </div>
+          </div>
+          <div style="padding:32px; border-left: 1px solid var(--color-border); display:flex; flex-direction:column; gap:24px; justify-content:center" class="fade-up delay-1">
+            <div>
+              <span class="label" style="margin-bottom:8px">Duration</span>
+              <p style="font-family:var(--font-display); font-size:28px; font-weight:800; letter-spacing:-0.02em">15:10</p>
+            </div>
+            <div style="height:1px; background:var(--color-border)"></div>
+            <div>
+              <span class="label" style="margin-bottom:8px">Category</span>
+              <p style="font-family:var(--font-display); font-size:14px; font-weight:600; color:var(--color-cream)">Mindset &middot; Design</p>
+            </div>
+            <div style="height:1px; background:var(--color-border)"></div>
+            <div>
+              <span class="label" style="margin-bottom:8px">Language</span>
+              <p style="font-family:var(--font-display); font-size:14px; color:var(--color-muted)">Bahasa Indonesia</p>
+            </div>
+            <div style="height:1px; background:var(--color-border)"></div>
+            <div>
+              <span class="label" style="margin-bottom:8px">Resources</span>
+              <a href="resources.html" style="font-family:var(--font-display); font-size:12px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--color-cream); transition:opacity 0.3s" onmouseover="this.style.opacity=0.7" onmouseout="this.style.opacity=1">View Materials &#8594;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- VIDEO ARCHIVE -->
+      <span class="label" style="margin-bottom:20px">Archive</span>
+      <div class="studio__grid">
+
+        <div class="studio-card fade-up">
+          <div class="studio-card__thumb">
+            <img src="images/nyc-speaking.png" alt="The Future of Generative Models in Enterprise">
+          </div>
+          <div class="studio-card__body">
+            <span class="studio-card__tag">AI &middot; Bisnis</span>
+            <h3 class="studio-card__title">The Future of Generative Models in Enterprise</h3>
+            <p class="studio-card__desc">What the enterprise AI stack looks like in 2024 — tools, workflows, and where Indonesian businesses are falling behind.</p>
+            <a href="https://www.youtube.com/@niatbaikstudio" target="_blank" rel="noopener" class="studio-card__link">Watch <span class="studio-card__arrow">&#8594;</span></a>
+          </div>
+        </div>
+
+        <div class="studio-card fade-up delay-1">
+          <div class="studio-card__thumb">
+            <img src="images/studio-setup.png" alt="Structuring Your Agency for Scale">
+          </div>
+          <div class="studio-card__body">
+            <span class="studio-card__tag">Bisnis</span>
+            <h3 class="studio-card__title">Structuring Your Agency for Scale in 2024</h3>
+            <p class="studio-card__desc">How I think about org design and building businesses that can grow without the founder becoming the bottleneck.</p>
+            <a href="https://www.youtube.com/@niatbaikstudio" target="_blank" rel="noopener" class="studio-card__link">Watch <span class="studio-card__arrow">&#8594;</span></a>
+          </div>
+        </div>
+
+        <div class="studio-card fade-up delay-2">
+          <div class="studio-card__thumb">
+            <img src="images/outdoor-hike.png" alt="The Builder's Philosophy">
+          </div>
+          <div class="studio-card__body">
+            <span class="studio-card__tag">Mindset</span>
+            <h3 class="studio-card__title">The Builder's Philosophy: Consistency over Intensity</h3>
+            <p class="studio-card__desc">Why sustainable systems beat motivation sprints — and how to build a content and business practice that compounds.</p>
+            <a href="https://www.youtube.com/@niatbaikstudio" target="_blank" rel="noopener" class="studio-card__link">Watch <span class="studio-card__arrow">&#8594;</span></a>
+          </div>
+        </div>
+
+        <div class="studio-card fade-up">
+          <div class="studio-card__thumb">
+            <img src="images/studio-setup.png" alt="Analog Systems in a Digital World">
+          </div>
+          <div class="studio-card__body">
+            <span class="studio-card__tag">Teknologi</span>
+            <h3 class="studio-card__title">Analog Systems in a Digital World</h3>
+            <p class="studio-card__desc">Why the most reliable systems often have no batteries — and what digital builders can learn from analog thinking.</p>
+            <a href="https://www.youtube.com/@niatbaikstudio" target="_blank" rel="noopener" class="studio-card__link">Watch <span class="studio-card__arrow">&#8594;</span></a>
+          </div>
+        </div>
+
+        <div class="studio-card fade-up delay-1">
+          <div class="studio-card__thumb">
+            <img src="images/outdoor-hike.png" alt="Natural Patterns in Productivity Design">
+          </div>
+          <div class="studio-card__body">
+            <span class="studio-card__tag">Produktivitas</span>
+            <h3 class="studio-card__title">Natural Patterns in Productivity Design</h3>
+            <p class="studio-card__desc">How patterns found in nature — fractals, rhythms, seasons — map directly onto high-performance work systems.</p>
+            <a href="https://www.youtube.com/@niatbaikstudio" target="_blank" rel="noopener" class="studio-card__link">Watch <span class="studio-card__arrow">&#8594;</span></a>
+          </div>
+        </div>
+
+        <div class="studio-card fade-up delay-2">
+          <div class="studio-card__thumb">
+            <img src="images/nyc-speaking.png" alt="Digital Media Trends for Indonesian Creators">
+          </div>
+          <div class="studio-card__body">
+            <span class="studio-card__tag">Media &middot; AI</span>
+            <h3 class="studio-card__title">Digital Media Trends for Indonesian Creators</h3>
+            <p class="studio-card__desc">What 2024 means for content creators in Indonesia — the platforms, formats, and monetization models that matter now.</p>
+            <a href="https://www.youtube.com/@niatbaikstudio" target="_blank" rel="noopener" class="studio-card__link">Watch <span class="studio-card__arrow">&#8594;</span></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter section--dark">
+    <div class="container">
+      <div class="newsletter__inner">
+        <div class="newsletter__text fade-up">
+          <span class="label">Niat Baik Journal</span>
+          <h3>Monthly insights<br>delivered to your inbox.</h3>
+          <p>Business strategy, AI updates, and creative thinking — curated monthly, in Bahasa Indonesia. New resources drop here first before they hit the public archive.</p>
+        </div>
+        <div class="fade-up delay-2">
+          <div class="newsletter__form">
+            <input type="email" class="newsletter__input" placeholder="Your email address" />
+            <button class="newsletter__submit">Subscribe</button>
+          </div>
+          <p style="margin-top:12px; font-size:12px; color:var(--color-muted); font-family:var(--font-display); letter-spacing:0.04em">No spam. Unsubscribe anytime.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__cta fade-up">
+      <span class="label">Collaborate</span>
+      <h2>Want to work<br>together?</h2>
+      <p>Sponsorships, collaborations, and consulting — reach out.</p>
+      <a href="mailto:tuhanitupastiada@gmail.com" class="btn btn-primary">Get in Touch &nbsp;&#8594;</a>
+    </div>
+    <div class="footer__bar">
+      <span class="footer__copy">&copy; 2026 Ali Hasyimi</span>
+      <div class="footer__socials">
+        <a href="https://www.youtube.com/@niatbaikstudio" target="_blank" rel="noopener" class="footer__social-link" aria-label="YouTube">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5a3 3 0 0 0-2.1 2.1C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1C24 15.9 24 12 24 12s0-3.9-.5-5.8zM9.7 15.5V8.5l6.3 3.5-6.3 3.5z"/></svg>
+        </a>
+        <a href="https://linkedin.com/in/alihasyimi" target="_blank" rel="noopener" class="footer__social-link" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.4 20.4h-3.4v-5.3c0-1.3 0-2.9-1.8-2.9s-2 1.4-2 2.8v5.4H9.8V9h3.2v1.5h.1c.5-.9 1.6-1.8 3.2-1.8 3.4 0 4.1 2.3 4.1 5.2v6.5zM5.3 7.4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm1.7 13H3.6V9h3.4v11.4zM22.2 0H1.8C.8 0 0 .8 0 1.8v20.4C0 23.2.8 24 1.8 24h20.4c1 0 1.8-.8 1.8-1.8V1.8C24 .8 23.2 0 22.2 0z"/></svg>
+        </a>
+        <a href="https://instagram.com/alihasyimi" target="_blank" rel="noopener" class="footer__social-link" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8 0 3.2 0 3.6-.1 4.8-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.9.1-3.2 0-3.6 0-4.8-.1-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12c0-3.2 0-3.6.1-4.8.1-3.3 1.7-4.8 4.9-4.9 1.2-.1 1.6-.1 4.8-.1zM12 0C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1 0 8.3 0 8.7 0 12c0 3.3 0 3.7.1 4.9.2 4.4 2.6 6.8 7 7C8.3 24 8.7 24 12 24c3.3 0 3.7 0 4.9-.1 4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9 0-3.3 0-3.7-.1-4.9C23.7 2.7 21.3.3 16.9.1 15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4A6.2 6.2 0 0 0 12 5.8zm0 10.2a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.8a1.4 1.4 0 1 0 0 2.8 1.4 1.4 0 0 0 0-2.8z"/></svg>
+        </a>
+        <a href="https://twitter.com/alihasyimi" target="_blank" rel="noopener" class="footer__social-link" aria-label="Twitter">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.2 2h3.4l-7.4 8.5L23 22h-6.8l-5.3-7-6.1 7H1.4l7.9-9L1 2h7l4.8 6.4L18.2 2zm-1.2 18h1.9L7.1 4H5.1l11.9 16z"/></svg>
+        </a>
+      </div>
+      <span class="footer__brands">Niat Baik Studio &nbsp;&middot;&nbsp; Lima Pilar Capital</span>
+    </div>
+  </footer>
+
+  <script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 60));
+    const hamburger = document.getElementById('hamburger');
+    const navOverlay = document.getElementById('navOverlay');
+    const navClose = document.getElementById('navClose');
+    hamburger.addEventListener('click', () => navOverlay.classList.add('open'));
+    navClose.addEventListener('click', () => navOverlay.classList.remove('open'));
+    navOverlay.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navOverlay.classList.remove('open')));
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('is-visible'); observer.unobserve(e.target); } });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
